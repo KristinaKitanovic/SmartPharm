@@ -6,23 +6,37 @@ SmartPharm is a project developed using React and JSON server for simplicity. Th
 
 ### 1. Clone the Project
 First, open your terminal and navigate to the directory where you want to clone the project. Then enter the following command:
-    git clone https://github.com/KristinaKitanovic/SmartPharm.git
+```bash
+git clone https://github.com/KristinaKitanovic/SmartPharm.git
+```
 ### 2. Navigate to the Project Folder
 After the project is cloned, navigate to the project folder:
-    cd SmartPharm
+```bash
+cd SmartPharm
+```
 ### 3. Open the Project in VS Code
 In the same terminal, enter the following command to open the project in Visual Studio Code:
-    code .
+```bash
+code .
+```
 ### 4. Install Dependencies
 Once the project is opened in VS Code, open a terminal within VS Code and run the following command to install the dependencies:
-    npm install
+```bash
+npm install
+```
 ### 5. Start the React Development Server
 After the dependencies are installed, enter the following command in the terminal to start the development server:
-    npm start
+```bash
+npm start
+```
 ### 6. Start the JSON Server
 Open two new terminals (e.g., PowerShell), and in the first terminal, run the following command to start the JSON server:
-    json-server --watch db.json --port 5000
+```bash
+json-server --watch db.json --port 5000
+```
 In the second terminal, run the following command to start the React app:
-  npm run dev
+```bash
+npm run dev
+```
 ### The Application is Running
 Enjoy using the SmartPharm application!
