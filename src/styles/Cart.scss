@@ -1,0 +1,299 @@
+.headerCart {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  z-index: 2000;
+  box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 4%;
+  z-index: 700;
+}
+.SPLabel {
+  margin-left: 5%;
+  color: rgb(96, 130, 182);
+  font-weight: bold;
+  font-size: 25px;
+}
+.headerCart a {
+  color: rgb(96, 130, 182);
+  font-weight: 500;
+}
+.items {
+  width: 60%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 50px;
+}
+.okCartItem,
+.outofstockCartItem,
+.notenoughstockCartItem {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 4%;
+}
+.okCartItem {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.okCartItem button,
+.outofstockCartItem button,
+.notenoughstockCartItem button {
+  height: 20%;
+  width: 10%;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.okCartItem button {
+  background-color: rgb(129, 152, 186);
+}
+.notenoughstockCartItem,
+.outofstockCartItem {
+  box-shadow: 0 0 10px rgba(220, 20, 60, 0.6);
+}
+.notenoughstockCartItem button,
+.outofstockCartItem button {
+  background-color: crimson;
+}
+.notenoughstockCartItem .productPicture::before,
+.outofstockCartItem .productPicture::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.notenoughstockCartItem .productPicture::after,
+.outofstockCartItem .productPicture::after {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  width: 85%;
+  height: 85%;
+  color: crimson;
+  font-size: 100%;
+  font-weight: 700;
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+.notenoughstockCartItem .productPicture::after {
+  content: "NOT ENOUGH STOCK";
+}
+.outofstockCartItem .productPicture::after {
+  content: "OUT OF STOCK";
+}
+.productPicture {
+  position: relative;
+  overflow: hidden;
+  height: 90%;
+  width: 30%;
+  background-color: rgb(187, 204, 230);
+  border-radius: 20px;
+}
+.productPicture img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.cartLabel,
+.cartQuantity,
+.cartPrice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cartLabel {
+  height: 30%;
+  width: 15%;
+  text-align: center;
+  font-size: 19px;
+  color: rgb(96, 130, 182);
+  font-weight: bold;
+}
+.cartQuantity,
+.cartPrice {
+  width: 15%;
+  height: 30%;
+  font-weight: bold;
+  font-size: 17px;
+  color: rgb(96, 130, 182);
+}
+.checkoutContainer {
+  position: fixed;
+  height: 70%;
+  width: 25%;
+  background-color: rgb(242, 242, 242);
+  right: 2%;
+  top: 20%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 700;
+}
+.checkoutContainer input {
+  width: 70%;
+  height: 10%;
+  border-color: lightgray;
+}
+.checkoutContainer button {
+  width: 50%;
+  height: 8%;
+  background-color: rgb(129, 152, 186);
+  color: white;
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.undiscountedPrice,
+.discountedPrice {
+  height: 20%;
+  font-size: 22px;
+  font-weight: bold;
+}
+.undiscountedPrice {
+  color: rgb(129, 152, 186);
+}
+.discountedPrice {
+  color: rgb(180, 37, 37);
+}
+.invalidMessage {
+  height: 5%;
+  font-size: 100%;
+  color: crimson;
+}
+.checkoutPopup {
+  position: fixed;
+  height: 40%;
+  width: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.checkoutPopup input {
+  margin: 2%;
+  height: 15%;
+  width: 80%;
+}
+.checkoutButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 15%;
+  margin-top: 4%;
+}
+.checkoutButtons button {
+  height: 100%;
+  width: 40%;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(96, 130, 182);
+  color: white;
+  font-weight: bold;
+}
+.receiptContainer,
+.filler {
+  width: 10%;
+  height: 60%;
+}
+.receiptContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.receiptContainer p {
+  color: rgb(96, 130, 182);
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+}
+.addedReceipt {
+  color: rgb(58, 220, 58) !important;
+}
+.receiptContainer button {
+  width: 80%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.camera {
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  left: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.screenshotButton {
+  z-index: 2000;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+.closeCameraButton {
+  z-index: 2000;
+  position: fixed;
+  top: 20px;
+  left: 20%;
+  background-color: black;
+  width: 130px;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+}
+.receiptPicture {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.XButton {
+  z-index: 2000;
+  position: fixed;
+  top: 5% !important;
+  right: 10% !important;
+  width: 6% !important;
+  height: 8% !important;
+  background-color: black !important;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+}

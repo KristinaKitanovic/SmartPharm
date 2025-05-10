@@ -1,0 +1,228 @@
+.table {
+  overflow-y: auto;
+  height: auto;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 70px;
+}
+.row {
+  height: 50px;
+}
+.table th {
+  text-align: center;
+  background-color: lightgray;
+  height: 40px;
+}
+.table td {
+  text-align: center;
+  background-color: rgb(242, 242, 242);
+}
+.table button {
+  background-color: lightgray;
+  border: none;
+  height: 30px;
+  margin: 2px;
+}
+.containerDash {
+  width: 95%;
+  height: 40vh;
+  margin-top: 40px;
+  margin-left: 2.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.chatList {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 27%;
+  height: 100%;
+  background-color: rgb(202, 199, 199);
+  overflow-y: auto;
+  gap: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.chat {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(242, 242, 242);
+}
+.chatname {
+  width: 23%;
+  text-align: center;
+}
+.unread {
+  width: 23%;
+  text-align: center;
+  font-weight: bold;
+}
+.chatTime {
+  width: 40%;
+  text-align: center;
+}
+.pharmacystChatDashboard {
+  background-color: white;
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.pharmacystChatInput button {
+  width: 15%;
+  height: 80%;
+  background-color: rgb(96, 130, 182);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+}
+.pharmacystChatHeader {
+  height: 10%;
+  background-color: rgb(236, 236, 240);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pharmacystChatHeader p {
+  width: 90%;
+  height: 100%;
+  text-align: center;
+  color: rgb(96, 130, 182);
+  font-weight: bold;
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pharmacystChatHeader button {
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  border: none;
+  color: rgb(96, 130, 182);
+  font-weight: bold;
+  background-color: rgb(236, 236, 240);
+}
+.pharmacystChatInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  gap: 0.5%;
+  margin-bottom: 1%;
+}
+.pharmacystChatInput input {
+  width: 75%;
+  height: 80%;
+  border-color: rgb(236, 236, 240);
+  border-radius: 20px;
+  font-size: 100%;
+}
+.pharmacystChatMessages {
+  width: 100%;
+  height: 70%;
+  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.userMessageDashboard,
+.pharmacystMessageDashboard {
+  max-width: 70%;
+  height: auto;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+  margin: 8px;
+  color: white;
+  border-radius: 20px;
+  font-size: 17px;
+}
+.pharmacystMessageDashboard {
+  align-self: flex-end;
+  background-color: rgb(96, 130, 182);
+}
+
+.userMessageDashboard {
+  align-self: flex-start;
+  background-color: rgb(151, 175, 211);
+}
+.discountContainer {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.addWindow,
+.editWindow {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.addWindow button,
+.editWindow button {
+  height: 10%;
+  width: 40%;
+  margin-top: 2%;
+}
+.addWindow p,
+.editWindow p {
+  height: 3%;
+  font-weight: bold;
+}
+.Inputs {
+  width: 95%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 48%;
+  height: 100%;
+}
+.left input,
+.left select,
+.right input,
+.right select {
+  width: 90%;
+  height: 10%;
+  color: gray;
+}
+.left p,
+.right p {
+  font-size: 10px;
+  height: 4%;
+}

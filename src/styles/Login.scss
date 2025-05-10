@@ -1,0 +1,129 @@
+.mainWindow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(96, 130, 182);
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftHalf {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightHalf {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoContainer {
+  width: 80%;
+  height: 30%;
+  margin-top: 10%;
+}
+.logoContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.registerContainer {
+  width: 80%;
+  height: 20%;
+  margin-bottom: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.registerContainer p {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.registerContainer button {
+  color: rgb(96, 130, 182);
+  background-color: white;
+  width: 70%;
+  height: 40%;
+  font-weight: bold;
+  border: none;
+}
+.heading {
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+.inputFields {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.loginButton {
+  width: 70%;
+  height: 12%;
+  background-color: white;
+  color: rgb(96, 130, 182);
+  margin-bottom: 0;
+  border: none;
+  font-weight: bold;
+  margin-top: 7%;
+}
+.usernameInput,
+.emailInput,
+.passwordInput {
+  width: 70%;
+  height: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.usernameInput p,
+.emailInput p,
+.passwordInput p {
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+}
+.usernameInput input,
+.emailInput input,
+.passwordInput input {
+  width: 100%;
+  height: 50%;
+  border: none;
+  font-size: 17px;
+}
+.errorMessage {
+  color: white;
+  font-weight: 700;
+}
+.thanks {
+  color: white;
+  text-align: center;
+  margin-bottom: 20%;
+  height: 20%;
+  width: 80%;
+  font-size: 24px;
+  font-weight: bold;
+}

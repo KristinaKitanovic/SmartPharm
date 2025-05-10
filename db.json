@@ -1,0 +1,277 @@
+{
+  "user": [
+    {
+      "id": "eb29",
+      "username": "kaca",
+      "email": "kaca@gmail.com",
+      "password": "kacakika",
+      "role": "C"
+    },
+    {
+      "id": "1ad7",
+      "username": "sara",
+      "email": "sara@gmail.com",
+      "password": "sara",
+      "role": "P"
+    },
+    {
+      "id": "fe5e",
+      "username": "nina",
+      "email": "nina@gmail.com",
+      "password": "nina",
+      "role": "C"
+    },
+    {
+      "id": "4e68",
+      "username": "kika",
+      "email": "kristinakitanovic42@gmail.com",
+      "password": "kika",
+      "role": "C"
+    }
+  ],
+  "product": [
+    {
+      "id": "1",
+      "label": "Brufen",
+      "quantity": 30,
+      "type": "Pain",
+      "description": "Helps with pain, cold and flu. For adults.",
+      "price": 5.99,
+      "image": "/productimages/brufen.png",
+      "expirationdate": "2025-09-09",
+      "needsreceipt": false
+    },
+    {
+      "id": "2",
+      "label": "Zoloft",
+      "quantity": 3,
+      "type": "depression",
+      "description": "Helps with panic attacks and severe anxiety.",
+      "price": 100.99,
+      "image": "/productimages/zoloft.png",
+      "expirationdate": "2025-09-26",
+      "needsreceipt": true
+    },
+    {
+      "id": "3",
+      "label": "RedBox",
+      "quantity": 20,
+      "type": "depression",
+      "description": "For people with severe depression.",
+      "price": 55.99,
+      "image": "/productimages/redbox.png",
+      "expirationdate": "2025-09-03",
+      "needsreceipt": true
+    },
+    {
+      "id": "4",
+      "label": "PainRelief",
+      "quantity": 25,
+      "type": "pain",
+      "description": "Helps with back pain and joint pain.",
+      "price": 33.99,
+      "image": "/productimages/painrelief.png",
+      "expirationdate": "2025-09-03",
+      "needsreceipt": false
+    },
+    {
+      "id": "5",
+      "label": "Voltaren",
+      "quantity": 29,
+      "type": "pain",
+      "description": "Helps with back pain and joint pain. Only for minor pain.",
+      "price": 1.99,
+      "image": "/productimages/voltaren.png",
+      "expirationdate": "2025-09-03",
+      "needsreceipt": false
+    },
+    {
+      "id": "6",
+      "label": "Keva Migraine",
+      "quantity": 19,
+      "type": "head",
+      "description": "Helps with headache and migraine.",
+      "price": 70.99,
+      "image": "/productimages/kevaMigraine.png",
+      "expirationdate": "2025-09-03",
+      "needsreceipt": false
+    },
+    {
+      "id": "7",
+      "label": "Head Tension",
+      "quantity": 20,
+      "type": "depression",
+      "description": "For minor headache.",
+      "price": 10,
+      "image": "/productimages/headTension.png",
+      "expirationdate": "2025-09-03",
+      "needsreceipt": false
+    },
+    {
+      "id": "ff2c",
+      "label": "nSjaknJasN",
+      "quantity": 2,
+      "type": "head",
+      "description": "ASNAKSASKN",
+      "price": 3,
+      "image": "/productimages/mockMedicine.png",
+      "expirationdate": "2025-05-05",
+      "needsreceipt": true
+    }
+  ],
+  "message": [
+    {
+      "id": "927f",
+      "userid": "eb29",
+      "messagetext": "hello",
+      "customerid": "eb29",
+      "time": "2025-05-08T17:07:08.121Z"
+    },
+    {
+      "id": "bd33",
+      "userid": "eb29",
+      "messagetext": "can you help me please??",
+      "customerid": "eb29",
+      "time": "2025-05-08T17:07:15.037Z"
+    },
+    {
+      "id": "a537",
+      "userid": "fe5e",
+      "messagetext": "i want to return paracetamol. i did not know i was allergic to it. ",
+      "customerid": "fe5e",
+      "time": "2025-05-08T17:27:16.263Z"
+    },
+    {
+      "id": "1fbb",
+      "userid": "fe5e",
+      "messagetext": "How can i do that?",
+      "customerid": "fe5e",
+      "time": "2025-05-08T17:27:22.652Z"
+    },
+    {
+      "id": "43d8",
+      "userid": "1ad7",
+      "messagetext": "yes of course",
+      "customerid": "eb29",
+      "time": "2025-05-08T18:53:36.492Z"
+    },
+    {
+      "id": "2d7e",
+      "userid": "1ad7",
+      "messagetext": "what do you need??",
+      "customerid": "eb29",
+      "time": "2025-05-08T18:57:18.814Z"
+    },
+    {
+      "id": "780e",
+      "userid": "1ad7",
+      "messagetext": "Im sorry , but we dont do refunds.",
+      "customerid": "fe5e",
+      "time": "2025-05-08T19:09:43.933Z"
+    },
+    {
+      "id": "8610",
+      "userid": "1ad7",
+      "messagetext": "is it about some medicine?",
+      "customerid": "eb29",
+      "time": "2025-05-08T19:11:18.720Z"
+    },
+    {
+      "id": "f766",
+      "userid": "1ad7",
+      "messagetext": "if so, please describe your symptoms so i can help",
+      "customerid": "eb29",
+      "time": "2025-05-08T19:16:17.184Z"
+    },
+    {
+      "id": "5b27",
+      "userid": "4e68",
+      "messagetext": "hey",
+      "customerid": "4e68",
+      "time": "2025-05-09T18:31:33.047Z"
+    },
+    {
+      "id": "769c",
+      "userid": "4e68",
+      "messagetext": "can you help me please",
+      "customerid": "4e68",
+      "time": "2025-05-09T21:40:40.365Z"
+    },
+    {
+      "id": "8f7a",
+      "userid": "1ad7",
+      "messagetext": "yes ofc what do you need",
+      "customerid": "4e68",
+      "time": "2025-05-09T21:44:11.007Z"
+    }
+  ],
+  "usermessagesummary": [
+    {
+      "id": "42fe",
+      "userid": "eb29",
+      "username": "kaca",
+      "unreadcount": 0,
+      "lastmessagetime": "2025-05-08T19:11:18.741Z"
+    },
+    {
+      "id": "b5ae",
+      "userid": "fe5e",
+      "username": "nina",
+      "unreadcount": 0,
+      "lastmessagetime": "2025-05-08T19:09:43.957Z"
+    },
+    {
+      "id": "9701",
+      "userid": "4e68",
+      "username": "kika",
+      "unreadcount": 0,
+      "lastmessagetime": "2025-05-09T21:44:11.024Z"
+    }
+  ],
+  "cart": [
+    {
+      "id": "daad",
+      "label": "Zoloft",
+      "userid": "4e68",
+      "quantity": 1,
+      "productid": "2"
+    }
+  ],
+  "usercart": [
+    {
+      "id": "f9de",
+      "userid": "eb29",
+      "originalprice": 0,
+      "totalprice": 0
+    },
+    {
+      "id": "9897",
+      "userid": "fe5e",
+      "originalprice": 0,
+      "totalprice": 0
+    },
+    {
+      "id": "d5fb",
+      "userid": "4e68",
+      "originalprice": "100.99",
+      "totalprice": "100.99"
+    }
+  ],
+  "discountcode": [
+    {
+      "id": "9b44",
+      "code": "1JKTAC",
+      "percentage": 15
+    },
+    {
+      "id": "a2f8",
+      "code": "XTIE09",
+      "percentage": 5
+    },
+    {
+      "id": "2de3",
+      "code": "HFVKAJ",
+      "percentage": 20
+    }
+  ]
+}
